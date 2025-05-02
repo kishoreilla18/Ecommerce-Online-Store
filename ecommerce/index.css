@@ -1,102 +1,94 @@
-*{
-    margin: 0%;
+* {
+    margin: 0;
     box-sizing: border-box;
-    /* border:1px solid black; */
 }
 
-.navbar-brand{
+.navbar-brand {
     width: 10%;
 }
-.navbar{
+.navbar {
     background-color: #f06292;
-    width: 100vw;
+    width: 100%;
+    z-index: 1;
 }
 
-.nav-item a{
+.nav-item a {
     color: white;
     font-weight: bold;
 }
-
-.dropdown-item{
+.dropdown-item {
     color: black !important;
 }
-
-.fa-bars{
+.fa-bars {
     color: white;
 }
 
-
-
-/* home */
-#home{
-    background-image: url('https://img.freepik.com/free-vector/hand-drawn-fruits-vegetables-pattern-background_23-2150855720.jpg?uid=R190892852&ga=GA1.1.2138563553.1741599621&semt=ais_hybrid');
+/* Home */
+#home {
+    /* background-image: url('https://img.freepik.com/free-vector/hand-drawn-fruits-vegetables-pattern-background_23-2150855720.jpg'); */
+    background-image: url('./animatedhomebackground2.jpg');
     width: 100vw;
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
-
-.os{
+.os {
     color: black;
     font-size: 50px;
     padding-top: 70px;
 }
 
-
-/* about */
-.d-block{
+/* About */
+.d-block {
     aspect-ratio: 3/2;
     width: 90%;
 }
-.ph{
+.ph {
     color: #f06292;
 }
-.ppara{
+.ppara {
     font-size: 20px;
 }
-#about{
+#about {
     margin-bottom: 3%;
 }
 
-/* products */
-.cards-img-top {
+/* Products */
+.card-img-top {
     width: 70%;
     aspect-ratio: 3/2;
-    margin-left: 12%;
+    margin-left: auto;
+    margin-right: auto;
 }
-/* payment */
-.input-group-text{
+
+/* Payment */
+.input-group-text {
     background-color: #db2360;
     color: white;
     border: none;
     font-weight: bold;
-
 }
-.form-label{
+.form-label {
     color: #db2360;
     font-weight: bold;
 }
-/* footer */
-#footer{
+
+/* Footer */
+#footer {
     background-color: #db2360;
 }
-.fhead{
-    /* color: white; */
-    text-decoration: 3px solid gold underline;
+.fhead {
+    text-decoration: underline 3px gold;
 }
-
-.link h6{
+.link h6 {
     color: white;
     font-weight: bold;
 }
-.link {
+.link a {
     color: beige;
 }
-.icons .fa-brands{
+.icons .fa-brands {
     color: white;
-    font-size: 30px;
-    margin: 1%;
-}
-.icons .fa-brands:hover{
-    color: aqua;
+    font-size: 24px;
+    margin: 0 8px;
 }
