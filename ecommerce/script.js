@@ -24,7 +24,7 @@ function loadProducts() {
         card.className = 'col';
         card.innerHTML = `
             <div class="card text-center">
-                <img src="${item.name.toLowerCase()}.jpg" class="card-img-top" alt="${item.name}">
+                <img src="./IMAGES/${item.name.toLowerCase()}.jpg" class="card-img-top" alt="${item.name}">
                 <div class="card-body">
                     <h5 class="card-title">${item.name}</h5>
                     <p class="card-text">₹${item.price}</p>
@@ -53,7 +53,7 @@ function loadCart() {
         cartItem.className = 'col';
         cartItem.innerHTML = `
             <div class="card text-center">
-                <img src="${item.name.toLowerCase()}.jpg" class="card-img-top" alt="${item.name}">
+                <img src="./IMAGES/${item.name.toLowerCase()}.jpg" class="card-img-top" alt="${item.name}">
                 <div class="card-body">
                     <h5 class="card-title">${item.name}</h5>
                     <p class="card-text">₹${item.price}</p>
